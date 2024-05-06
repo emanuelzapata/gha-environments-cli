@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/emanuelzapata/gha-environments-cli/issues"
   },
-  "homepage": "https://github.com/emanuelzapata/gha-environments-cli#readme"
+  "homepage": "https://github.com/emanuelzapata/gha-environments-cli#readme",
+  "dependencies": {
+    "yargs": "13.2",
+    "@octokit/core": "^6.1.2",
+    "libsodium-wrappers": "^0.7.13"
+  }
 }
