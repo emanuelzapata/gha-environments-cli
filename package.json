@@ -1,0 +1,23 @@
+{
+  "name": "gha-environments-cli",
+  "version": "1.0.0",
+  "description": "Github Actions CLI Tool to help automate and speed up github actions environment configurations",
+  "main": "./bin/index.js",
+  "bin": {
+    "hello": "./bin/index.js",
+    "createEnvironments": "./bin/createEnvironments.mjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emanuelzapata/gha-environments-cli.git"
+  },
+  "author": "Emanuel Zapata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emanuelzapata/gha-environments-cli/issues"
+  },
+  "homepage": "https://github.com/emanuelzapata/gha-environments-cli#readme"
+}
